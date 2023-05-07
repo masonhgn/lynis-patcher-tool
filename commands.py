@@ -1,0 +1,33 @@
+comands = {
+    "suggestion[]=PKGS-7392|Update your system with apt-get update, apt-get upgrade, apt-get dist-upgrade and/or unattended-upgrades|-|-|":"",
+    "suggestion[]=SSH-7408|Consider hardening SSH configuration|AllowTcpForwarding (set YES to NO)|-|":"",
+    "suggestion[]=SSH-7408|Consider hardening SSH configuration|ClientAliveCountMax (set 3 to 2)|-|":"",
+    "suggestion[]=SSH-7408|Consider hardening SSH configuration|LogLevel (set INFO to VERBOSE)|-|":"",
+    "suggestion[]=SSH-7408|Consider hardening SSH configuration|MaxAuthTries (set 6 to 3)|-|":"",
+    "suggestion[]=SSH-7408|Consider hardening SSH configuration|MaxSessions (set 10 to 2)|-|":"",
+    "suggestion[]=SSH-7408|Consider hardening SSH configuration|PermitRootLogin (set YES to (FORCED-COMMANDS-ONLY|NO|PROHIBIT-PASSWORD|WITHOUT-PASSWORD))|-|":"",
+    "suggestion[]=SSH-7408|Consider hardening SSH configuration|Port (set 22 to )|-|":"",
+    "suggestion[]=SSH-7408|Consider hardening SSH configuration|TCPKeepAlive (set YES to NO)|-|":"",
+    "suggestion[]=SSH-7408|Consider hardening SSH configuration|X11Forwarding (set YES to NO)|-|":"",
+    "suggestion[]=SSH-7408|Consider hardening SSH configuration|AllowAgentForwarding (set YES to NO)|-|":"",
+    "suggestion[]=KRNL-5820|If not required, consider explicit disabling of core dump in /etc/security/limits.conf file|-|-|":"",
+    "suggestion[]=AUTH-9230|Configure password hashing rounds in /etc/login.defs|-|-|":"",
+    "suggestion[]=AUTH-9262|Install a PAM module for password strength testing like pam_cracklib or pam_passwdqc|-|-|":"",
+    "suggestion[]=AUTH-9286|Configure minimum password age in /etc/login.defs|-|-|":"",
+    "suggestion[]=AUTH-9286|Configure minimum password age in /etc/login.defs|-|-|":"",
+    "suggestion[]=AUTH-9328|Default umask in /etc/login.defs could be more strict like 027|-|-|":"",
+    "suggestion[]=FILE-6310|To decrease the impact of a full /home file system, place /home on a separate partition|-|-|":"",
+    "suggestion[]=FILE-6310|To decrease the impact of a full /tmp file system, place /tmp on a separate partition|-|-|":"",
+    "suggestion[]=FILE-6310|To decrease the impact of a full /var file system, place /var on a separate partition|-|-|":"",
+    "suggestion[]=PKGS-7370|Install debsums utility for the verification of packages with known good database.|-|-|":"",
+    "suggestion[]=PKGS-7394|Install package apt-show-versions for patch management purposes|-|-|":"",
+    "suggestion[]=BANN-7126|Add a legal banner to /etc/issue, to warn unauthorized users|-|-|":"",
+    "suggestion[]=BANN-7130|Add legal banner to /etc/issue.net, to warn unauthorized users|-|-|":"",
+    "suggestion[]=ACCT-9622|Enable process accounting|-|-|":"",
+    "suggestion[]=ACCT-9626|Enable sysstat to collect accounting (no results)|-|-|":"",
+    "suggestion[]=ACCT-9628|Enable auditd to collect audit information|-|-|":"",
+    "suggestion[]=FINT-4350|Install a file integrity tool to monitor changes to critical and sensitive files|-|-|":"",
+
+
+
+}
