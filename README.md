@@ -2,9 +2,9 @@
 Python tool for patching vulnerabilities found by the Lynis tool.
 
 
-##GOAL: To create a portable, robust tool that will take a Lynis generated security audit report and fix all of the vulnerabilities found.
+## GOAL: To create a portable, robust tool that will take a Lynis generated security audit report and fix all of the vulnerabilities found.
 
-#CURRENT PROBLEMS:
+# CURRENT PROBLEMS:
 - Security auditing is very specific to the purpose of the machine, and usually there will be some settings and conditions of a machine that are necessary to have regardless of the fact that Lynis may flag it as a vulnerability. It is not a good idea to blindly patch all vulnerabilities that are found by Lynis without proper understanding of the impact and possible consequences. Some vulnerabilities might be false positives.
 
 
