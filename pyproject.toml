@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "lynis-patcher-tool"
+version = "0.1.0"
+description = "A quicker way to improve your Lynis Hardening Index."
+authors = ["Mason Hagan"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
