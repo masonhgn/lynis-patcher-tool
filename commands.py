@@ -1,5 +1,5 @@
-comands = {
-    "suggestion[]=PKGS-7392|Update your system with apt-get update, apt-get upgrade, apt-get dist-upgrade and/or unattended-upgrades|-|-|":"",
+suggestions_dict = {
+    "suggestion[]=PKGS-7392|Update your system with apt-get update, apt-get upgrade, apt-get dist-upgrade and/or unattended-upgrades|-|-|":"apt-get upgrade",
     "suggestion[]=SSH-7408|Consider hardening SSH configuration|AllowTcpForwarding (set YES to NO)|-|":"",
     "suggestion[]=SSH-7408|Consider hardening SSH configuration|ClientAliveCountMax (set 3 to 2)|-|":"",
     "suggestion[]=SSH-7408|Consider hardening SSH configuration|LogLevel (set INFO to VERBOSE)|-|":"",
@@ -27,7 +27,11 @@ comands = {
     "suggestion[]=ACCT-9626|Enable sysstat to collect accounting (no results)|-|-|":"",
     "suggestion[]=ACCT-9628|Enable auditd to collect audit information|-|-|":"",
     "suggestion[]=FINT-4350|Install a file integrity tool to monitor changes to critical and sensitive files|-|-|":"",
-
-
-
-}
+    "suggestion[]=NETW-3200|Determine if protocol 'dccp' is really needed on this system|-|-|",
+    "suggestion[]=NETW-3200|Determine if protocol 'sctp' is really needed on this system|-|-|",
+    "suggestion[]=NETW-3200|Determine if protocol 'rds' is really needed on this system|-|-|",
+    "suggestion[]=NETW-3200|Determine if protocol 'tipc' is really needed on this system|-|-|",
+    "suggestion[]=PKGS-7394|Install package apt-show-versions for patch management purposes|-|-|",
+    "suggestion[]=PKGS-7346|Purge old/removed packages (6 found) with aptitude purge or dpkg --purge command. This will cleanup old configuration files, cron jobs and startup scripts.|-|-|",
+    "suggestion[]=PKGS-7370|Install debsums utility for the verification of packages with known good database.|-|-|",
+    "suggestion[]=BOOT-5122|Set a password on GRUB boot loader to prevent altering boot configuration (e.g. boot in single user mode without password)|-|-|",
